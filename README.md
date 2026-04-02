@@ -10,15 +10,15 @@ https://github.com/Relekt71/terraform_hw_last.git
 
 Получаем registry ID и host ID (на локальном компьютере) в переменные окружения
 
-REGISTRY_ID=$(terraform output -raw registry_id)
-DB_HOST=$(terraform output -raw db_host)
-echo "Registry ID: $REGISTRY_ID"
-echo "DB_HOST: $DB_HOST"
+    REGISTRY_ID=$(terraform output -raw registry_id)
+    DB_HOST=$(terraform output -raw db_host)
+    echo "Registry ID: $REGISTRY_ID"
+    echo "DB_HOST: $DB_HOST"
 
 Собираем образ и загружаем в Container Registry
 
-docker build -t cr.yandex/${REGISTRY_ID}/dev-rel:latest .
-docker push cr.yandex/${REGISTRY_ID}/dev-rel:latest
+    docker build -t cr.yandex/${REGISTRY_ID}/dev-rel:latest .
+    docker push cr.yandex/${REGISTRY_ID}/dev-rel:latest
 
 Подключаемся к VM с нашим ключем
 
