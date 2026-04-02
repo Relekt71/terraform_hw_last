@@ -146,14 +146,14 @@ docker push cr.yandex/${REGISTRY_ID}/dev-rel:latest
     sudo chmod +x /opt/webapp/deploy.sh
 
 
-
+<img width="956" height="94" alt="image" src="https://github.com/user-attachments/assets/636257c3-449b-4111-934e-dee95f862020" />
 
 Скриншот облака яндекс с адресом 
 
-
+<img width="990" height="281" alt="VM" src="https://github.com/user-attachments/assets/4898ab8e-a7dc-4141-ad07-bdaca47a77c5" />
 
 Скриншот консоли вм с приложением
 
-
+<img width="779" height="174" alt="web" src="https://github.com/user-attachments/assets/8f600931-c2cf-4cb2-8dc0-f953144b5131" />
 
 Скриншот из браузера с приложением
